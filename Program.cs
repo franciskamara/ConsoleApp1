@@ -22,7 +22,6 @@ class Program
             int attemptsMade;
 
             // Intro message
-            Console.WriteLine("TEST MESSAGE, Francis");
             Console.WriteLine("-----------------");
             Console.WriteLine(" This is Hangman ");
             Console.WriteLine("-----------------");
