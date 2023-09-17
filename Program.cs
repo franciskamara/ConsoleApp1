@@ -21,7 +21,7 @@ class Program
             // Game state variables 
             int attemptsMade;
 
-            // Intro message 
+            // Intro message
             Console.WriteLine("-----------------");
             Console.WriteLine(" This is Hangman ");
             Console.WriteLine("-----------------");
@@ -133,7 +133,7 @@ class Program
                 Console.Clear();
                 playing = true;
             } //end restart game
-            else return;
+            else return; //End game sequence
         } //end while loop
     } //end Main arg loop
-} //end class Progrma loop
+} //end class Program loop
