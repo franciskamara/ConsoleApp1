@@ -10,8 +10,9 @@ class Program
         // Create list and list of words
         List<string> words = new()
             {
-            "abruptly", "grogginess", "peekaboo", "whomever", "psyche",
-            "strength", "zombie", "flapjack", "kiwifruit", "espionage"
+            "badmington","basketball","bowling","cycling","football",
+            "hockey","lacrosse","rowing","soccer","snowboarding",
+            "swimming","sennis","volleyball","wrestling"
             };
         Random rng = new Random();// Random draw from List
 
@@ -31,8 +32,9 @@ class Program
 
             // Chosen word
             string chosenWord = words[randomNumber]; //Store random chosen word
-            Console.WriteLine(chosenWord); //Print chosen word
-            Console.WriteLine($"\nWord contains {chosenWord.Length} letters");
+            //Console.WriteLine(chosenWord); //Print chosen word
+            Console.WriteLine("\nSports based words");
+            Console.WriteLine($"Word contains {chosenWord.Length} letters");
             Console.WriteLine($"You make {PERMITTED_ATTEMPTS} incorrect guesses and you lose.");
             Console.WriteLine(" ");
 
@@ -81,7 +83,6 @@ class Program
                 {
                     if (chosenWord[idx] == userGuessedChar) //Letter is in guess word
                     {
-                        //Console.Clear();
                         gameState[idx] = userGuessedChar;
                         ruleOutAttempt = true;
                     }
