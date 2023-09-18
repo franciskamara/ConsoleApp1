@@ -11,8 +11,8 @@ class Program
         List<string> words = new()
             {
             "badmington","basketball","bowling","cycling","football",
-            "hockey","lacrosse","rowing","soccer","snowboarding",
-            "swimming","sennis","volleyball","wrestling"
+            "hockey","rowing","football","snowboarding","swimming"
+            ,"tennis","wrestling"
             };
         Random rng = new Random();// Random draw from List
 
