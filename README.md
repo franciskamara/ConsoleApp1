@@ -1,6 +1,6 @@
-# ConsoleApp1 - Hangman sln
+# Hangman 
 
-Hangman
+Hangman sln
 Hangman is a game where a word is secretly chosen and the player guesses letters to fill in the word.
 Each correct guess fills in that letter in the word. Guess too many wrong letters and the player loses.
 
